@@ -7,11 +7,15 @@
   }
 }
 
+.hero__inner {
+  max-width: 86rem;
+  margin: 0 auto;
+}
+
 .hero__img {
   position: relative;
-  max-width: 86rem;
-  margin: 0 auto 4.4rem;
-  padding-bottom: 49%;
+  margin-bottom: 4.4rem;
+  padding-bottom: 62%;
 
   @include max($sm) {
     margin-left: -1.5rem;

@@ -1,0 +1,5 @@
+mixin article(item)
+  +b.A.article(href= item.path)
+    +e.DIV.img
+      +picture(item.img, item.title, 'jpg')
+    +e.H3.title= item.title
