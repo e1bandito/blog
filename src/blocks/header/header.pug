@@ -1,5 +1,7 @@
 +b.HEADER.header
   .container
-    +icon('logo')
-    include ../../components/nav/nav
-    include ../../components/burger/burger
+    +e.inner
+      +e.A.logo(href="/")
+        +icon('logo')
+      include ../../components/nav/nav
+      include ../../components/burger/burger

@@ -5,4 +5,4 @@
     +e.UL.list
       each item in data
         +e.LI.item(class= (item.title === pageTitle) ? "--active" : "")
-          +e.A.link(href= item.path) #{item.title}
+          +e.A.link(href= item.path, class= (item.title === pageTitle) ? "--active" : "") #{item.title}

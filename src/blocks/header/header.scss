@@ -1,3 +1,28 @@
 .header {
-  padding: 15px 0;
+  padding: 45px 0;
+  border-bottom: 1px solid $grey;
+
+  @include max($lg) {
+    padding: 25px 0;
+  }
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-top: 0.5rem;
+
+  & svg {
+    width: 40rem;
+    height: 4rem;
+
+    @include max($lg) {
+      width: 30rem;
+      height: 3rem;
+    }
+  }
 }

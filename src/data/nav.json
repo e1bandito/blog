@@ -1,14 +1,18 @@
 [
   {
     "path": "index.html",
-    "title": "main"
+    "title": "blog"
   },
   {
-    "path": "page2.html",
-    "title": "page2"
+    "path": "about.html",
+    "title": "about"
   },
   {
-    "path": "page3.html",
-    "title": "page3"
+    "path": "links.html",
+    "title": "links"
+  },
+  {
+    "path": "projects.html",
+    "title": "projects"
   }
 ]
