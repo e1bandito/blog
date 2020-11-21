@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 
     &--open {
       transform: translateX(100%);
@@ -59,7 +60,7 @@
 
   &--active::after {
     position: absolute;
-    bottom: -46px;
+    bottom: -4.8rem;
     left: 0;
     content: "";
     width: 100%;
@@ -70,7 +71,7 @@
   &:hover {
     &::after {
       position: absolute;
-      bottom: -46px;
+      bottom: -4.8rem;
       left: 0;
       content: "";
       width: 100%;

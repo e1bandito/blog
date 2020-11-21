@@ -1,0 +1,52 @@
+.hero {
+  position: relative;
+  padding: 7.5rem 0 3.5rem;
+
+  @include max($md) {
+    padding: 5rem 0;
+  }
+}
+
+.hero__img {
+  position: relative;
+  max-width: 86rem;
+  margin: 0 auto 4.4rem;
+  padding-bottom: 49%;
+
+  @include max($sm) {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    padding-bottom: 68%;
+  }
+
+  & img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero__title {
+  max-width: 86rem;
+  line-height: 1;
+  font-size: 5.4rem;
+  margin: 0 auto 3.2rem;
+  text-align: center;
+
+  @include max($md) {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+    line-height: 1.2;
+  }
+}
+
+.hero__text {
+  max-width: 45rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2rem;
+  line-height: 1.7;
+}
