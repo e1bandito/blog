@@ -1,3 +1,54 @@
 .footer {
-  padding: 20px 0;
+  padding: 15rem 0 3rem;
+  background-color: $black;
+
+  & .social {
+    margin-bottom: 6.4rem;
+  }
+}
+
+.footer__inner {
+  max-width: 49rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 2.5rem;
+
+  & svg {
+    fill: $white;
+    width: 29rem;
+    height: 2.9rem;
+
+    @include max($md) {
+      width: 23rem;
+      height: 2.3rem;
+    }
+
+  }
+}
+
+.footer__text {
+  color: $white;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0 auto 3rem;
+
+  @include max($sm) {
+    font-size: 1.3rem;
+  }
+}
+
+.footer__copyright {
+  color: $white;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  text-align: center;
 }

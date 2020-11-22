@@ -1,0 +1,27 @@
+.social__list {
+  @include lsr;
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  margin-right: 27px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  text-decoration: underline;
+  color: $white;
+  font-size: 1.6rem;
+
+  @include max($sm) {
+    font-size: 1.3rem;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
